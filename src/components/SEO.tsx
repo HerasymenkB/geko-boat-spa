@@ -23,12 +23,16 @@ export default function SEO() {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={desc} />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={isEs ? "https://your-domain.com/es" : "https://your-domain.com"} />
+      <meta property="og:url" content={isEs ? "https://gekoboatspa.com/es" : "https://gekoboatspa.com"} />
+      <meta property="og:image" content="https://gekoboatspa.com/og-image.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:site_name" content="GEKO Boat Spa" />
 
       {/* hreflang tags */}
-      <link rel="alternate" hrefLang="en" href="https://your-domain.com" />
-      <link rel="alternate" hrefLang="es" href="https://your-domain.com/es" />
-      <link rel="alternate" hrefLang="x-default" href="https://your-domain.com" />
+      <link rel="alternate" hrefLang="en" href="https://gekoboatspa.com" />
+      <link rel="alternate" hrefLang="es" href="https://gekoboatspa.com/es" />
+      <link rel="alternate" hrefLang="x-default" href="https://gekoboatspa.com" />
     </Helmet>
   );
 }
