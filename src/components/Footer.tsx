@@ -5,7 +5,7 @@ export default function Footer() {
   const { t } = useLanguage();
 
   return (
-    <footer className="bg-brand-dark pt-24 pb-12 border-t border-white/5">
+    <footer className="bg-brand-dark pt-4 pb-12">
       <div className="container-wide space-y-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
           {/* Brand */}

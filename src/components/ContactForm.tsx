@@ -17,7 +17,7 @@ export default function ContactForm() {
   const labelClasses = "absolute left-4 -top-2.5 text-[10px] text-white/60 bg-brand-dark px-2 transition-all pointer-events-none peer-placeholder-shown:top-4 peer-placeholder-shown:text-sm peer-placeholder-shown:bg-transparent peer-placeholder-shown:text-white/40 peer-focus:-top-2.5 peer-focus:text-[10px] peer-focus:bg-brand-dark peer-focus:text-white/60 peer-focus:px-2";
 
   return (
-    <section className="bg-brand-dark pb-40 pt-4 relative overflow-hidden" id="contact">
+    <section className="bg-brand-dark pb-16 pt-4 relative overflow-hidden" id="contact">
       <div className="container-wide relative z-10">
         <div className="max-w-xl mx-auto">
           
