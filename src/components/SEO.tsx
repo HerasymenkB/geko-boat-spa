@@ -20,19 +20,19 @@ export default function SEO() {
       <meta name="description" content={desc} />
       
       {/* Open Graph Meta Tags */}
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={desc} />
+      <meta property="og:title" content="GEKO Boat Spa — Premium Boat Restoration in South Florida" />
+      <meta property="og:description" content="Mobile boat detailing, gelcoat repair, and yacht restoration in Miami, Fort Lauderdale, and Hollywood." />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={isEs ? "https://gekoboatspa.com/es" : "https://gekoboatspa.com"} />
-      <meta property="og:image" content="https://gekoboatspa.com/og-image.jpg" />
+      <meta property="og:url" content={isEs ? "https://gekomiami.com/es" : "https://gekomiami.com/"} />
+      <meta property="og:image" content="https://gekomiami.com/og-image.jpg" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="og:site_name" content="GEKO Boat Spa" />
 
       {/* hreflang tags */}
-      <link rel="alternate" hrefLang="en" href="https://gekoboatspa.com" />
-      <link rel="alternate" hrefLang="es" href="https://gekoboatspa.com/es" />
-      <link rel="alternate" hrefLang="x-default" href="https://gekoboatspa.com" />
+      <link rel="alternate" hrefLang="en" href="https://gekomiami.com/" />
+      <link rel="alternate" hrefLang="es" href="https://gekomiami.com/es" />
+      <link rel="alternate" hrefLang="x-default" href="https://gekomiami.com/" />
     </Helmet>
   );
 }
